@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "modeName": "Morning",
+        "percentile": "50%",
+        "icon": "morning-wh",
+        "tick": "tick-wh"
+    },
+    {
+        "id": 1,
+        "modeName": "Day",
+        "percentile": "30%",
+        "icon": "day-dk",
+        "tick": "tick-wh-lt"
+    },
+    {
+        "id": 2,
+        "modeName": "Night",
+        "percentile": "100%",
+        "icon": "night-dk",
+        "tick": "tick-wh-lt"
+    }
+]

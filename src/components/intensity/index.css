@@ -1,0 +1,62 @@
+.ss-intensity-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ss-intensity-header {
+    width: 100%; 
+    height: 13px; 
+    border-bottom: 1px solid #AC6CFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ss-intensity-text {
+    font-size: 15px;
+    padding: 0 10px;
+    font-family: Montserrat-Bold;
+    color: #AC6CFF;
+    letter-spacing: 1.5px;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.ss-half-circle {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    /* border: 10px solid #74BCF7; */
+    position: relative;
+    border-style: solid;
+    border-bottom: 0;
+    /* border-image: linear-gradient(#74BCF7 50%, #AC6DFF 100%); */
+    border-color: #74BCF7 #AC6DFF #74BCF7 #74BCF7;
+}
+
+.ss-circle-pointer {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: linear-gradient(-135deg, #AD6BFF 0%, #74BCF7 100%);
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+    position: absolute;
+    left: 68px;
+    top: -13px;
+}
+
+.ss-percentile {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: Montserrat-Bold;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 6.4px;
+    text-shadow: 0 20px 25px rgba(0,0,0,0.15);
+}

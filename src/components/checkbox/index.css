@@ -1,0 +1,144 @@
+:root {
+    --checkbox-3-spacing: 3px;
+    --checkbox-3-spacing-2x: 6px;
+    --checkbox-8-spacing: 8px;
+    --checkbox-8-spacing-2x: 16px;
+    --checkbox-8-spacing-3x: 24px;
+    --checkbox-style-easing: cubic-bezier(.4, 0, .2, 1);
+    --checkbox-size-easing: cubic-bezier(0, 0, .2, 1);
+    --checkbox-transition-speed: 200ms;
+    --white: #ffffff;
+    --black: black;
+    --fb-blue: #3b5998;
+    --ebony: #555d50;
+    --bright-red: #FF4563;
+    --bright-purple: #8245E6;
+    --light-blue: #4AC0E0;
+    --vivid-blue: #1089EB;
+    --light-pink: #C791CD;
+  }
+  .ss-label--checkbox {
+    display: inline-block;
+    height: 26px;
+    position: relative;
+}
+.ss-checkbox {
+    height: 40px;
+    inset-start: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    width: 40px;
+   /** below style is given for focus on tab */
+}
+.ss-checkbox + span {
+    padding-inline-start: 2em;
+}
+.ss-checkbox + span::before {
+    content: "";
+    height: 40px;
+    inset-start: 0;
+    left: 0;
+    position: absolute;
+    width: 40px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+}
+.ss-chk-background-color_bright-red + span::before {
+    background: var(--bright-red);
+}
+.ss-chk-background-color_bright-purple + span::before {
+    background: var(--bright-purple);
+}
+.ss-chk-background-color_light-blue + span::before {
+    background: var(--light-blue);
+}
+.ss-chk-background-color_vivid-blue + span::before {
+    background: var(--vivid-blue);
+}
+.ss-chk-background-color_light-pink + span::before {
+    background: var(--light-pink);
+}
+.ss-checkbox + span::after {
+    border-bottom: 3px solid rgba(255, 255, 255, .75);
+    border-right: 3px solid rgba(255, 255, 255, .75);
+    content: "";
+    height: 24px;
+    inset-start: 3px 7px;
+    opacity: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: opacity 0.2s ease-in-out;
+    width: 12px;
+    left: 13px;
+    top: 4px;
+}
+.ss-checkbox:checked + span::after {
+    opacity: 1;
+}
+.ss-checkbox:focus + span::before {
+    box-shadow: 0 0 0 3px var(--fb-blue);
+    outline: 3px solid transparent;
+   /* For Windows high contrast mode. */
+}
+
+
+
+  /* Input Toggle
+  /* ========================================================================== */
+  
+  .ss-input-toggle {
+    cursor: pointer;
+    height: calc(var(--checkbox-8-spacing-3x) + var(--checkbox-3-spacing-2x));
+    opacity: 0;
+    outline: 0;
+    position: absolute;
+    width: calc(var(--checkbox-8-spacing-2x) * 3 + var(--checkbox-3-spacing-2x));
+}
+.ss-input-toggle + span {
+    border-radius: calc(var(--checkbox-8-spacing-3x) + var(--checkbox-3-spacing-2x));
+    box-shadow: inset 0 0 0 1.5px var(--black);
+    display: inline-block;
+    height: calc(var(--checkbox-8-spacing-3x) + var(--checkbox-3-spacing-2x));
+    margin-block-start: var(--checkbox-3-spacing-2x);
+    margin-inline-end: var(--checkbox-3-spacing-2x);
+    transition: background-color 400ms var(--checkbox-style-easing);
+    width: calc(var(--checkbox-8-spacing-2x) * 3 + var(--checkbox-3-spacing-2x));
+}
+.ss-input-toggle.ss-input-toggle-inverted + span {
+    background-color: var(--ebony);
+    box-shadow: inset 0 0 0 1.5px var(--ebony);
+}
+.ss-input-toggle[disabled] + span {
+    opacity: 0.5;
+}
+.ss-input-toggle[keyboard-focus] + span {
+    outline: 2px solid Highlight;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+    -moz-outline-radius: calc(var(--checkbox-8-spacing-3x) + var(--checkbox-3-spacing-2x));
+}
+.ss-input-toggle:checked + span {
+    background-color: var(--black);
+    box-shadow: inset 0 0 0 1.5px var(--black);
+}
+.ss-input-toggle + span::before {
+    background-color: var(--white);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.75px var(--black);
+    content: "";
+    display: block;
+    height: calc(var(--checkbox-8-spacing-3x) + var(--checkbox-3-spacing-2x) - 4px);
+    margin: 2px;
+    transition: box-shadow var(--checkbox-transition-speed) var(--checkbox-size-easing), margin-left var(--checkbox-transition-speed) var(--checkbox-size-easing);
+    width: calc(var(--checkbox-8-spacing-3x) + var(--checkbox-3-spacing-2x) - 4px);
+}
+.ss-input-toggle:checked + span::before {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .3);
+    margin-inline-start: calc(var(--checkbox-8-spacing-3x) + 2px);
+}
+.ss-label--toggle {
+    display: contents;
+}
+.ss-label--toggle + span {
+    position: relative;
+}

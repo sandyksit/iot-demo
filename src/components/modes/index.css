@@ -1,0 +1,24 @@
+.ss-modes-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ss-mode-header {
+    width: 100%; 
+    height: 13px; 
+    border-bottom: 1px solid #AC6CFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ss-mode-text {
+    font-size: 15px;
+    padding: 0 10px;
+    font-family: Montserrat-Bold;
+    color: #AC6CFF;
+    letter-spacing: 1.5px;
+    background-color: white;
+    text-transform: uppercase;
+}

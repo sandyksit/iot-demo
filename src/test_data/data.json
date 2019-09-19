@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "name": "Bed Lamp",
+        "category": "in Bedroom",
+        "icon": "lamp"
+    },
+    {
+        "id": 1,
+        "name": "Noria ac",
+        "category": "in Bedroom",
+        "icon": "ac"
+    },
+    {
+        "id": 2,
+        "name": "Door lock",
+        "category": "in Home Office",
+        "icon": "lock"
+    },
+    {
+        "id": 3,
+        "name": "Lg tv",
+        "category": "in Living room",
+        "icon": "tv"
+    },
+    {
+        "id": 4,
+        "name": "thermostat",
+        "category": "in Bed room",
+        "icon": "thermostat"
+    }
+]

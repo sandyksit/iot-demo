@@ -1,0 +1,11 @@
+.ss-lr-padding {
+    padding: 20px 10px 10px 10px;
+}
+.ss-back-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 3;
+    left: 0;
+    top: 5px;
+}

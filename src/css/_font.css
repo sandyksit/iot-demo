@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-Black.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-BlackItalic.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-BoldItalic.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-ExtraBold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-ExtraBoldItalic.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-ExtraLight.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-ExtraLightItalic.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-Italic.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-Light.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-LightItalic.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-Medium.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-MediumItalic.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-SemiBold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-SemiBoldItalic.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-Thin.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    src:url("../static/fonts/Montserrat-ThinItalic.ttf") format("ttf");
+}

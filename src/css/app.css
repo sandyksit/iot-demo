@@ -1,0 +1,33 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import "./_font.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "montserrat";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ss-main-container {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.ss-sidebar {
+	display: table-cell;
+    width: 26.4%;
+    vertical-align: top;
+    opacity: 100%;
+    background-image: linear-gradient(-180deg, rgba(173,107,255,0.00) 0%, rgba(149,140,252,0.30) 25%, #9291FB 38%, rgba(141,152,251,0.85) 84%, rgba(116,188,247,0.00) 100%);
+}
+
+.ss-content {
+	display: table-cell;
+	width: 73.6%;
+	vertical-align: top;
+}
